@@ -1,0 +1,139 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.header{
+  background: linear-gradient(to right, #262525 70%, #007bff 30%);
+}
+
+.header li{
+  
+  display: inline-block;
+  padding-right: 10px;
+  margin-left: 200px;  
+ 
+
+  
+}
+
+.header li a {
+  text-decoration: none;
+  position: fixed;
+}
+
+.intro{
+  margin-top: 180px;
+  margin-left: 80px;
+  color: white;
+
+}
+.name{
+  color: #5db9ee;
+}
+
+.passion{
+  color: #007bff;
+  margin-left: 80px;
+  font-size: 50px; 
+}
+.para{
+  margin-left: 90px;
+  color: white;
+}
+
+.hire{
+  background-color: #007bff;
+  margin-top: 30px;
+  margin-left: 90px;
+  font-size: large;
+  border-color: #0077b5;
+  
+}
+.view{
+  background-color: #262525;
+  margin-left: 50px;
+  font-size: large; 
+  border-color: #0077b5;
+  color: #0077b5;
+  height: 40px;
+  width: 115px;
+  
+}
+.icon {
+margin: 20px;
+}
+.icon svg {
+  color: #0077b5; /* LinkedIn blue color */
+  font-size: 40px; /* Adjust size as needed */
+  background-color: transparent; /* Ensure no background color */
+}
+.icon-container {
+  background-color: transparent; /* Set background of container as needed */
+  padding: 10px; /* Optional padding */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-container svg {
+  color: #0077b5; /* LinkedIn blue */
+  font-size: 40px;
+  background-color: transparent !important;
+}
+
+
+
+.left-container,.right-container{
+  height: 100vh;
+}
+.left-container{
+  background-color: #262525;
+  width: 70%;
+
+}
+.right-container{
+  background:linear-gradient(-45deg,#007bff,#262525 70%);
+  width: 30%;
+}
+.port{
+    display: flex;
+}
+
+.circle1 {
+  background-color: red;
+  width: 38rem;
+  height: 38rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 55%;
+  left: 35%;
+  transform: translate(-80%, -10%);
+  background: linear-gradient(90deg,transparent 50%, #262525 50%);
+  margin-top: 35px;
+}
+
+.circle2 {
+  background-color: white;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-80%,10%);
+  overflow: hidden;
+  margin-top: 80px;
+  
+}
+.circle2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%; 
+}
+
+.design {
+  position: relative;
+ 
+
+}
